@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    color: black;
+}
+.head{
+    width: 25%;
+    display: flex;
+}
+.icon i{
+    font-size: 30px;
+    color: green;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.fr{
+    width: 75%;
+    display: flex;
+}
+.fr ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.fr ul{
+    display: flex;
+    padding-left: 10%;
+}
+.fr ul li{
+    padding-left: 10%;
+    list-style: none;
+    font-size: 25px;
+    padding-top: 2px;
+}
+.icon2 i{
+    color: antiquewhite;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.icon2{
+    margin-left: 40%;
+    padding-top: 5px;
+}
+.img{
+    width: 50%;
+    height: 93vh;
+    background-image: url(image/istockphoto-1165399909-170667a.jpg);
+    background-size: 100% 93vh;
+    float: left;
+    /* background-color: blue; */
+    color: antiquewhite;
+}
+form{
+    float: left;
+    width: 25%;
+    height: 60vh;
+    text-transform: capitalize;
+    background-color: rgb(102, 89, 89);
+    margin-top: 20vh;
+    margin-left: 10%;
+}
+form input{
+    width: 90%;
+    padding: 10px;
+    margin-left: 4%;
+}
+h2 {
+    margin-left: 4%;
+    margin-top: 10px;
+    color: aqua;
+}
+p{
+    margin-left: 4%;
+    margin-top: 10px;
+    color: aquamarine;
+}
+button{
+    margin-left: 40%;
+    margin-top: 10px;
+    background-color: aqua;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+h4{
+    text-align: center;
+    margin-top: 20px;
+}
+body{
+    background-color: black;
+}
+.img h1{
+    float: right;
+    font-size: 30px;
+    margin-top: 20vh;
+}
+.img h3{
+    float: right;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    color: black;
+}
+.head{
+    width: 25%;
+    display: flex;
+}
+.icon i{
+    font-size: 30px;
+    color: green;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.fr{
+    width: 75%;
+    display: flex;
+}
+.fr ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.fr ul{
+    display: flex;
+    padding-left: 10%;
+}
+.fr ul li{
+    padding-left: 10%;
+    list-style: none;
+    font-size: 25px;
+    padding-top: 2px;
+}
+.icon2 i{
+    color: antiquewhite;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.icon2{
+    margin-left: 40%;
+    padding-top: 5px;
+}
+section{
+    width: 100%;
+    height: 50vh;
+    background-image: url(image/lakku.jpg);
+    background-size: 100% 50vh;
+}
+.chain{
+    width: 20%;
+    height: 25vh;
+    /* background-color: aqua; */
+    margin-top: 20vh;
+    margin-right: 20%;
+    float: right;
+    padding-top: 10px;
+    color: white;
+}
+.chain h2{
+    padding-top: 5px;
+}
+.chain button{
+    padding: 5px;
+    margin-top: 10px;
+}
+.about{
+    width: 70%;
+    height: 20vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.one{
+    width: 70%;
+    height: 20vh;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 20px; */
+}

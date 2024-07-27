@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    color: black;
+}
+.head{
+    width: 25%;
+    display: flex;
+}
+.icon i{
+    font-size: 30px;
+    color: green;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.fr{
+    width: 75%;
+    display: flex;
+}
+.fr ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.fr ul{
+    display: flex;
+    padding-left: 10%;
+}
+.fr ul li{
+    padding-left: 10%;
+    list-style: none;
+    font-size: 25px;
+    padding-top: 2px;
+}
+.icon2 i{
+    color: antiquewhite;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.icon2{
+    margin-left: 40%;
+    padding-top: 5px;
+}
+.section{
+    width: 100%;
+    height: 70vh;
+    background-image: url(image/akash1.jpg);
+    background-size: 100% 70vh;
+    position: relative;
+}
+.box{
+    width: 25%;
+    height: 40vh;
+    background-color: rgba(225, 225, 225, 0.3) ;
+    text-align: center ;
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.box h2{
+    color: aqua;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.box p{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+button{
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    /* border-radius: 50%; */
+}
+.sub-box{
+    width: 70%;
+    height: 40vh;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 15%;
+    top: 54vh;
+    display: flex;
+}
+.card{
+    width: 32%;
+    height: 40vh;
+    background-color: rgb(131, 87, 87);
+    margin-left: 1%;
+    border-radius: 2px;
+}
+.card i{
+    font-size: 50px;
+    margin: 10px;
+    color: aliceblue;
+}
+.card h3{
+    color: aqua;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.card p{
+    padding-top: 20px;
+}
+.wel{
+    margin-top: 30vh;
+    text-align: center;
+}
